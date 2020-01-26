@@ -1,10 +1,12 @@
-import express from "express";
+import express from 'express';
 
 const app = express();
 
-app.get("/", (req, res) => {    
+app.set('port', process.env.PORT || 3000);
+
+app.get('/', (req, res) => {    
     res.json({
-        mensaje: "Bienvenido al api rest de productos naturales"
+        mensaje: 'Bienvenido al api rest de productos naturales'
     });
 });
 
