@@ -6,7 +6,7 @@ app.set('port', process.env.PORT || 3000);
 
 app.get('/', (req, res) => {    
     res.json({
-        mensaje: 'Bienvenido al api rest de productos naturales'
+        mensaje: 'Bienvenido al api rest'
     });
 });
 
