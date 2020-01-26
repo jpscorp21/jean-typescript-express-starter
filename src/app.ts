@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {    
     res.json({
-        mensaje: "Bienvenidos a la aplicacion"
+        mensaje: "Bienvenido al api rest de productos naturales"
     });
 });
 
