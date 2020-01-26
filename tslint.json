@@ -1,0 +1,14 @@
+{
+    "defaultSeverity": "error",    
+    "rules": {
+        "max-line-length": {
+            "options": [140]
+          },
+        "member-ordering": false,
+        "no-consecutive-blank-lines": false,
+        "no-console": [false],
+        "quotemark": [true, "single"],
+        "variable-name": false
+    },
+    "rulesDirectory": []
+}
